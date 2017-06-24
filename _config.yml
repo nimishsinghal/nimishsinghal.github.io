@@ -1,0 +1,12 @@
+# Site settings
+title: Nimish Singhal
+email:  nimishsinghal188@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "nimishsinghal.github.io" # the base hostname & protocol for your site
+
+github_username: nimishsinghal
+linkedin_username: nimish-singhal-abba6779
+
+# Build settings
+markdown: kramdown
