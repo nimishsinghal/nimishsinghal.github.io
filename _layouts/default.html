@@ -1,44 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-<head>
+{%- include head.html -%}
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<body class="{% if site.darkmode %}dark{% endif %}">
 
-    <title>Nimish Singhal</title>
+  {%- include header.html -%}
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
 
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+      {%- if jekyll.environment == 'production' and site.gtm -%}
+        {%- include gtm_body.html -%}
+      {%- endif -%}
 
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+      {%- include about.html -%}
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+      {%- if site.data.projects.size > 0 -%}
+        {%- include projects.html -%}
+      {%- endif -%}
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
+      {%- endif -%}
 
-</head>
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
+      {%- endif -%}
 
+      {%- if site.more_content -%}
+        {%- include more.html -%}
+      {%- endif -%}
 
-<body id="page-top">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include contact.html %}
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
 </body>
 
 </html>
