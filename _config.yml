@@ -3,37 +3,18 @@ repository: Git repository where your resume will be hosted, only required if yo
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Nimish Singhal
+title: Senior Frontent Developer
+email: nimishsinghal188@gmail.com
 
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+linkedin_username: https://www.linkedin.com/in/nimish-singhal-abba6779
+twitter_username: https://twitter.com/nimish_singhal
+github_username:  https://github.com/nimishsinghal
+instagram_username: https://www.instagram.com/nimish.singhal
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -43,15 +24,13 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hello, I am a frontend engineer based out of Bangalore, India. I have over 5 years of experience as web and mobile app developer.
+  I am currently working for Flipkart as a frontend engineer on mobile website and apps. I love working on UI/UX, developing rich and innovative user interfaces that people love.
 
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
+  I am a curious person who enjoys acquiring new knowledge. I collaborate with designers, product managers and backend developers to convert wireframes and low fidility prototypes into complete product.
+  I have experience working on <mark>Javascript</mark>, <mark>CSS</mark>, <mark>HTML</mark> & <mark>Python</mark>. I have worked on following frameworks and libraries <mark>React & Redux</mark>, <mark>AngularJS</mark>, <mark>Webpack</mark>, <mark>Django</mark>, <mark>Express</mark>.
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -65,12 +44,11 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  I am like any other "boring" software engineer who loves to watch movies, eat exciting food and travel to new destinations.
+  I love to interact with new people, discuss interesting problems and find solutions to the unknowns.  
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)

@@ -1,9 +1,29 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
+  company: Flipkart
+  link: https://flipkart.com
+  job_title: UI - 2
+  dates: April 2018 - present
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+
+- layout: left
+  company: Grofers
+  link: https://grofers.com
+  job_title: Software Engineer
+  dates: June 2015 - March 2018
+  quote: >
+   Short description of the company (optional)
+  description: | # this will include new lines to allow paragraphs
+    Description of role
+
+- layout: left
+  company: Grofers
+  link: https://grofers.com
+  job_title: Internship
+  dates: Feb 2015 - June 2015
   quote: >
    Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
